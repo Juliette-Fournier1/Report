@@ -31,9 +31,9 @@ library(mapproj)
 library(countrycode)
 
 #data
-unicef_indicator_1.clean <- read.csv("~/Documents/NEOMA/4A/S2 - DCU/Data/unicef_indicator_1 clean.csv", sep=";")
-unicef_indicator_2.clean <- read.csv("~/Documents/NEOMA/4A/S2 - DCU/Data/unicef_indicator_2 clean.csv", sep=";")
-unicef_metadata.life.exp <- read.csv("~/Documents/NEOMA/4A/S2 - DCU/Data/unicef_metadata life exp.csv", sep=";")
+unicef_indicator_1.clean <- read.csv(sep=";")
+unicef_indicator_2.clean <- read.csv(sep=";")
+unicef_metadata.life.exp <- read.csv(sep=";")
 
 #transformations
 
